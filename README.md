@@ -32,3 +32,22 @@ Fine-tuning: trained on the training portion of the dataset, evaluated on a held
 
 
 Goal: leverage pre-trained language representations for superior performance.
+
+
+RESULTS
+
+| Model                        | Accuracy | Precision | Recall | F1-Score |
+| ---------------------------- | -------- | --------- | ------ | -------- |
+| DistilBERT (Transformer)     | 0.9937   | 0.9863    | 0.9664 | 0.9763   |
+| TF-IDF + Logistic Regression | 0.9186   | 1.0000    | 0.4160 | 0.5889   |
+
+
+### Confusion Matrices
+
+**DistilBERT (Transformer)**  
+![Confusion Matrix Transformer](confusion_matrix_transformer.png)
+
+**TF-IDF + Logistic Regression (Baseline)**  
+![Confusion Matrix Baseline](confusion_matrix_baseline.png)
+
+
