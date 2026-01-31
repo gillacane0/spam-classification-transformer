@@ -18,7 +18,7 @@ Approach
 
 Preprocessing: tokenize and vectorize SMS messages using TF-IDF.
 
-Model: Logistic Regression classifier trained on the vectorized features.
+Model: Random forest classifier, tuned with random-search-cv, trained on the vectorized features.
 
 Goal: provide a simple, interpretable baseline.
 
@@ -29,5 +29,6 @@ Preprocessing: tokenize messages using DistilBERT tokenizer.
 Model: DistilBERT (encoder-only Transformer) with a classification head for binary spam detection.
 
 Fine-tuning: trained on the training portion of the dataset, evaluated on a held-out validation set.
+
 
 Goal: leverage pre-trained language representations for superior performance.
