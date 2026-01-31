@@ -1,6 +1,6 @@
 Project Overview
 
-This project implements a text classification pipeline for spam detection using both classical machine learning and Transformer-based models. The goal is to compare a simple TF-IDF + Logistic Regression baseline with a fine-tuned DistilBERT model to evaluate performance on real-world SMS data.
+This project implements a text classification pipeline for spam detection using both classical machine learning and Transformer-based models. The goal is to compare a simple TF-IDF + Random Forest baseline with a fine-tuned DistilBERT model to evaluate performance on real-world SMS data.
 
 Dataset
 
@@ -49,5 +49,6 @@ RESULTS
 
 **TF-IDF + Logistic Regression (Baseline)**  
 ![Confusion Matrix Baseline](confusion_matrix_baseline.png)
+
 
 
